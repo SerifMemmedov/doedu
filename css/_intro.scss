@@ -1,0 +1,155 @@
+.title-top{
+    // https://cgclass.ru/images/head_course/html_bg-page.jpg
+    color: #fff;
+    position: relative;
+    background-image: url(https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2021/08/difference-between-html-and-html5-1024x449.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 5% 8%;
+    height: 25vh;
+   
+    .background{
+        background-color: rgba(37, 37, 37, 0.37);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .text{
+        position: absolute;
+        top: 30%;
+        left: 8%;
+        color: #fff;
+        z-index: 5555555;
+        .info{
+            .info-item{
+                margin-right: 1.5rem;
+            }
+        }
+    }
+}
+
+p{
+    line-height: 1.7em;
+}
+
+.qp-btn{
+    background: #5E5DF0;
+    display: inline-block;
+        border-radius: 30px;
+        box-shadow: #5E5DF0 0 10px 20px -10px;
+        color: #FFFFFF !important;
+        font-size: 18px;
+        font-weight: 600;
+        padding: 5px 20px;
+        border: 0;
+        a{
+            color: #FFFFFF !important;
+        }
+}
+
+.main-content{
+    .left{
+        .video{
+            iframe{
+                width: 80%;
+                height: 350px;
+            }
+        }
+    }
+}
+
+
+.nav-intro{
+    .syll{
+        height: 340px;
+        overflow-y: scroll;
+        .element::-webkit-scrollbar {
+            width: 3px;
+            background-color: #5E5DF0;
+          }
+    
+        p{
+            padding: 10px 15px;
+            background-color: #fff;
+            color: #224573;
+        // &:nth-child(2n){
+        //     background-color: #5d5df093;;
+        //     color: #fff;
+        // }
+        // &:nth-child(2n+1){
+        //     background-color: #fff;
+        //     color: #224573;
+
+        }
+    }
+}
+
+.comments{
+    .card{
+        width: 99%;
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+        border-radius: 20px;
+        // box-shadow: 4px 4px 8px 3px rgba(34, 60, 80, 0.2);
+        .left{
+            img{
+                border-radius: 100%;
+            }
+            margin-right: 1rem;
+        }
+        .right{
+            font-family: 'Quicksand', sans-serif;
+            color: #224573;
+            span{
+                color:#4CD282;
+            }
+        }
+    }
+    
+    
+}
+
+@media (max-width: 992px) {
+    .main-content{
+        .right{
+            text-align: center;
+            padding: 0 5%;
+        }
+        .quiz-intro{
+            .box{
+                .q-box{
+                    justify-content: center;
+                }
+            }
+        }
+        .left{
+            .video{
+                iframe{
+                    width: 80%;
+                    height: 300px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .main-content{
+        .left{
+            .video{
+                iframe{
+                    width: 80%;
+                    height: 150px;
+                }
+            }
+            .info{
+                p{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}

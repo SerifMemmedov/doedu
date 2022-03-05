@@ -1,0 +1,31 @@
+.questions{
+    padding: 3% 0;
+    .card{
+        padding: 2rem;
+        margin-bottom: 2rem;
+        border-radius: 15px;
+        box-shadow: 4px 4px 8px 3px rgba(34, 60, 80, 0.2);
+        .user-wallpaper{
+            img{
+                border-radius: 50%;
+    
+            }
+        }
+        .user-name{
+            color: #224573;
+                font-family: 'Quicksand', sans-serif;
+                font-size: 20px;
+                margin-left: 1rem;
+        }
+        .time{
+            color: #000;
+            font-size: 14px;
+            font-weight: 200;
+        }
+        .content{
+            margin-top: 10px;
+            color: #224573;
+            font-family: 'Quicksand', sans-serif;
+        }
+    }
+}

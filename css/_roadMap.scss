@@ -1,0 +1,102 @@
+$base-color: #224573;
+$base-color2: #42beb8;
+$base-famil: "Nunito", sans-serif;
+
+#roadMap {
+  width: 100%;
+
+  .roadMap {
+    padding: 2rem;
+
+    .road-text {
+      h2 {
+        color: $base-color;
+        font-size: 1.1rem;
+        cursor: pointer;
+        text-align: center;
+        text-transform: capitalize;
+
+        &:hover {
+          color: darkblue;
+
+          i {
+            color: darkblue;
+          }
+        }
+
+        i {
+          font-size: 0.8rem;
+          color: $base-color;
+          margin-left: 0.6rem;
+        }
+      }
+    }
+
+    .road-accordion {
+      ul {
+        li {
+          list-style: none;
+         
+
+          a {
+            text-decoration: none;
+            color: $base-color;
+            text-transform: capitalize;
+            display: inline-block;
+            margin-bottom: 0.6rem;
+            transition: 0.4s ease;
+
+           
+
+            &:hover {
+              color: darkolivegreen;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .road-right {
+    text-align: center;
+
+    h2 {
+      color: $base-color;
+      margin-bottom: 1.5rem;
+    }
+
+    .road-right-text {
+      margin-top: 1.5rem;
+
+      p {
+        color: $base-color;
+
+        &:last-child {
+          margin-top: 2rem;
+        }
+      }
+    }
+
+    .road-map-img {
+      margin-top: 5rem;
+    }
+
+    .help-explain {
+      margin-top: 5rem;
+
+      p {
+        color: $base-color;
+      }
+
+      a {
+        text-decoration: none;
+        color: $base-color;
+        transition: 0.4s ease;
+
+        &:hover {
+          color: darkolivegreen;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,142 @@
+@media (max-width: 992px) {
+  #eror {
+    .eror {
+      .eror-gif {
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+  #roadMap{
+
+
+    .roadMap{
+
+
+
+      .road-text{
+
+
+        .road-accordion{
+
+          text-align: center;
+        }
+      }
+    }
+  }
+
+ 
+}
+@media (max-width: 768px) {
+  #eror {
+    .eror {
+      .eror-gif {
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  #details{
+
+
+    .details-right{
+
+
+      text-align: center;
+    }
+  }
+
+  #roadMap{
+
+
+    .roadMap{
+
+
+
+      .road-text{
+
+
+        .road-accordion{
+
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 576px) {
+  #eror {
+    .eror {
+      .eror-gif {
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  #help {
+    .all-help {
+      .help-text {
+        h4 {
+          font-size: 1rem;
+        }
+      }
+
+      .help-search{
+
+
+        input{
+
+            padding: 10px 20px;
+
+
+            &::placeholder{
+
+                font-size: .7rem;
+            }
+        }
+      }
+
+      .help-span{
+
+        a{
+
+            font-size: .5rem;
+        }
+      }
+    }
+  }
+  #details{
+
+
+    .details-right{
+
+
+      text-align: center;
+    }
+  }
+  #roadMap{
+
+
+    .roadMap{
+
+
+
+      .road-text{
+
+
+        .road-accordion{
+
+          text-align: center;
+        }
+      }
+    }
+  }
+
+ 
+}
+

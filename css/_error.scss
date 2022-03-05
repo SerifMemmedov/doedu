@@ -1,0 +1,48 @@
+$base-color: #224573;
+$base-famil: "Nunito", sans-serif;
+
+@mixin button {
+  a {
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    margin: 25px;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: $base-color;
+    background: transparent;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border-radius: 30px;
+    border: 2px solid $base-color;
+    border-radius: 4mm;
+    box-shadow: inset 0 0 0 0 $base-color;
+
+    &:hover {
+      color: white;
+      box-shadow: inset 0 -100px 0 0 $base-color;
+      transform: translateY(-10px);
+    }
+
+    &:active {
+      transform: scale(0.9);
+    }
+  }
+}
+
+#eror {
+  .eror {
+    .eror-gif {
+      text-align: center;
+    }
+
+    .eror-text {
+      text-align: center;
+
+      @include button();
+    }
+  }
+}
